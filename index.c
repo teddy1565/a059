@@ -26,6 +26,6 @@ int main(void) {
     for (int i=0;i<loops;i++) {
         printf("Case %d: %d\n",i+1,ansPtr[i]);
     }
-    
+    free(ansPtr);
     return 0;
 }
